@@ -124,7 +124,7 @@
         <executions>
           <execution>
             <id>copy</id>
-            <phase>prepare-package</phase>
+            <phase>package</phase>
             <goals>
               <goal>copy-dependencies</goal>
             </goals>
